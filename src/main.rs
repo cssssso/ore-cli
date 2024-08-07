@@ -130,8 +130,8 @@ struct Args {
     #[arg(
         long,
         value_name = "DYNAMIC_FEE_STRATEGY",
-        help = "Strategy to use for dynamic fee estimation. Must be one of 'helius', or 'triton'.",
-        default_value = "helius",
+        help = "Strategy to use for dynamic fee estimation. Must be one of 'helius', or 'triton' or 'alchemy'.",
+        default_value = "alchemy",
         global = true
     )]
     dynamic_fee_strategy: Option<String>,
